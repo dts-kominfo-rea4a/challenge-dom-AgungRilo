@@ -38,7 +38,6 @@
       function fnClickHandler(toDoItem) {
         if(toDoItem.key === "Enter" || toDoItem.type === "click"){
           const li = document.createElement("li");
-          // document.getElementById("todo-output").appendChild(li);
           output.appendChild(li);
           let item = li;
           input = document.getElementById("todo-input").value;
